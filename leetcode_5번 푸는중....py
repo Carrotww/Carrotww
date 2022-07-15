@@ -25,16 +25,16 @@ class Solution:
                 break
             elif not ss:
                 break
-            s.popleft()
-            if list(ss) == list(ss)[::-1] and not ss:
+            ss.popleft()
+            if list(ss) == list(ss)[::-1]:
                 result_1.append(ss)
                 break
             elif not ss:
                 break
-            s.pop()
+            ss.pop()
         if not result_1:
             return ''.join(s)
-        return result_1
+        return ''.join(max(result_1))
 
 a = Solution()
 
