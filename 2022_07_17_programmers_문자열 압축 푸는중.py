@@ -1,28 +1,25 @@
 import collections
 
-def solution2(s):
+def solution2(s, cnt):
+    str_list = ''
     str_dict = collections.defaultdict(int)
-    result = collections.defaultdict(list)
-    max_len = len(s) // 2
+    for p in range(0, len(s), cnt):
+        start = p
+        end = p + cnt
+        end2 = cnt + (p + cnt)
+        s1 = s[start:end]
+        s2 = s[end:end2]
+        if s[start:end] == s[end:end2]:
+            str_dict[s[start:end]] += 1
 
-    for i in range(1, max_len + 1):
-        for p in range(0, len(s), i):
-            start = p
-            end = p + i
-            end2 = i + (p + i)
-            s1 = s[start:end]
-            s2 = s[end:end2]
-            if s[start:end] == s[end:end2]:
-                str_dict[i] += 1
+        else:
+            str_list += s[start:end]
 
-    if not str_dict:
-        return s
-
-    return str_dict
+    return str_list
 
 def solution(s):
     max_len = len(s) // 2
-    return min(solution2(s, max_len))
+    return [min(x.append(solution2(s, i))) for x in max_len]
 
 a = ["aabbaccc", "ababcdcdababcdcd", "abcabcdede", "abcabcabcabcdededededede", \
      "xababcdcdababcdcd"]
