@@ -1,43 +1,20 @@
-from collections import deque
-import copy
-
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        s = deque(s)
-        ss = copy.deepcopy(s)
-        result_1 = list()
-        while s:
-            if list(s) == list(s)[::-1]:
-                result_1.append(s)
-                break
-            elif not s:
-                break
-            s.pop()
-            if list(s) == list(s)[::-1]:
-                result_1.append(s)
-                break
-            elif not s:
-                break
-            s.popleft()
-        while ss:
-            if list(ss) == list(ss)[::-1]:
-                result_1.append(ss)
-                break
-            elif not ss:
-                break
-            ss.popleft()
-            if list(ss) == list(ss)[::-1]:
-                result_1.append(ss)
-                break
-            elif not ss:
-                break
-            ss.pop()
-        if not result_1:
-            return ''.join(s)
-        return ''.join(max(result_1))
+        result = ''
+        if len(s) < 2 or s == s[::-1]:
+            return len(s)
+        def fun1(left: int, right: int) -> str:
+            while left >= 0 and right < len(s) and s[left] == s[right]:
+                left -= 1
+                right += 1
+            return s[left + 1:right]
 
-a = Solution()
+        for i in range(len(s) - 1):
+            result = max(result, fun1(i, i + 1), fun1(i, i + 2), key=len)
+        return result
 
-print(a.longestPalindrome("babad"))
-print(a.longestPalindrome("ccc"))
-print(a.longestPalindrome("abb"))
+b = Solution()
+a = ["babad", "cbbd"]
+
+for i in a:
+    print(b.longestPalindrome(i))
