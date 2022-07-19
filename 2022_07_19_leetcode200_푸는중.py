@@ -14,17 +14,18 @@ class Solution:
                 check_list.append([c + i, r])
                 i += 1
                 j = 0
-                if c + i < len(grid):
+                if c + i > len(grid) - 1:
                     break
                 while grid[c][r + j] == "1" and [c, r + j] not in check_list:
                     check_list.append([c, r + j])
                     j += 1
-                    if r + j < len(grid[0]):
+                    if r + j > len(grid[0]) - 1:
                         break
-        for x in range(col):
-            for y in range(row):
+            
+        for y in range(col):
+            for x in range(row):
                 ch_len = len(check_list)
-                fun1(x, y)
+                fun1(y, x)
                 if ch_len != len(check_list):
                     cnt += 1
 
