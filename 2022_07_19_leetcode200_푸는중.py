@@ -21,7 +21,7 @@ class Solution:
                     j += 1
                     if r + j > len(grid[0]) - 1:
                         break
-            
+
         for y in range(col):
             for x in range(row):
                 ch_len = len(check_list)
