@@ -1,15 +1,25 @@
 import collections
-import datetime
+from typing import List
 
 def solution(lines):
-    answer = 0
-    result = collections.defaultdict(list)
-    re_line = [i.split() for i in lines]
-    for i in range(len(re_line)):
-        re_line[i] = [re_line[i][0] + ' ' + re_line[i][1], re_line[i][2].split("s"[0])]
-    if len(lines) == 1:
-        return 1
-    start_time = re_line[0][0] - datetime.timedelta(seconds=int(re_line[0][1]))
-    last_time = re_line.pop()[0]
+    result = ''
+    log_line = [[a, b, c] for a, b, c in [x.split() for x in lines]]
 
-    return last_time
+    def total_time(line: List) -> int:
+        if not line:
+            return 0
+        log_Hour = int(line[1].split(":")[0])
+        log_min = int(line[1].split(":")[1])
+        log_sec = int(line[1].split(":")[2].split(".")[0])
+        log_msec = int(line[1].split(":")[2].split(".")[1])
+
+        return log_msec + (log_sec * 100) + (log_min * 6000) + (log_Hour * 360000)
+
+    return total_time(log_line[0])
+
+li = [
+"2016-09-15 01:00:04.001 2.0s",
+"2016-09-15 01:00:07.000 2s"
+]
+
+print(solution(li))
