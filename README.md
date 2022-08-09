@@ -27,8 +27,10 @@ You can click the Preview link to take a look at your changes.
 ![Git](https://img.shields.io/badge/-Git-222222?style=flat&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/-GitHub-222222?style=flat&logo=github&logoColor=181717)
 ![Linux](https://img.shields.io/badge/-Linux-222222?style=flat&logo=linux&logoColor=FCC624)
-![Amazon Web Services](https://img.shields.io/badge/-Amazon%20Web%20Services-222222?style=flat&logo=Amazon-Web-Service)
-<img alt="Fortinet" src ="https://img.shields.io/badge/Fortinet-222222.svg?&style=flat&logo=Fortinet&logoColor=#EE3124"/>
+<img alt="Amazon AWS" src ="https://img.shields.io/badge/AWS-222222.svg?&style=flat&logo=Amazon AWS&logoColor=#EE3124"/>
+<img alt="Fortinet" src ="https://img.shields.io/badge/Fortinet FGT-222222.svg?&style=flat&logo=Fortinet&logoColor=#EE3124"/>
+<img alt="Juniper Networks" src ="https://img.shields.io/badge/Juniper Networks FW-222222.svg?&style=flat&logo=Juniper Networks&logoColor=##84B135"/>
+<img alt="Trend Micro" src ="https://img.shields.io/badge/TMC Tipping point-222222.svg?&style=flat&logo=Trend Micro&logoColor=##D71921"/>
 
 ##### Connect List
 <a href="https://velog.io/@rjgjfl" target="_blank"><img alt="Velog" src ="https://img.shields.io/badge/Velog-222222.svg?&style=flat&logo=Velog&logoColor=##20C997"/>
