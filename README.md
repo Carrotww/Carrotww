@@ -9,7 +9,7 @@ You can click the Preview link to take a look at your changes.
 
 ## I'm a Security Engineer at SK shieldus
 
-- 👨‍💻 I will working on AI and django projects using python with Sparta 9-9.
+- 👨‍💻 It hasn't been long since I started coding, but I'm working hard.
 - 📚 Learning everything about Backend and algorithm technologies.
 - 💪🏼 Future Goals: Learn more technologies - Never stop creating new ideas.
 
