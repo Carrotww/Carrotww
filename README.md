@@ -2,8 +2,10 @@
 Carrotww/Carrotww is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=300&section=header&text=Carrotww's%20Github&fontSize=90&theme=shades-of-purple)
+
 ### Wellcome My Repo 👋 :) I'm [Hyoengseok!](https://github.com/)
+
+![Github Banner](https://github.com/Jaydeep-Yadav/Jaydeep-Yadav/blob/main/banner.png)
 
 <img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/Ah3zHH7hvsSB2/giphy.gif" />
 
