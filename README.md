@@ -40,4 +40,3 @@ You can click the Preview link to take a look at your changes.
 <a href="https://github.com/Carrotww" target="_blank">![GitHub](https://img.shields.io/badge/-Carrotww_GitHub-222222?style=flat&logo=github&logoColor=181717)
 
 ![Carrot's GitHub stats](https://github-readme-stats.vercel.app/api?username=Carrotww&theme=material-palenight&show_icons=true)
-<br/>
