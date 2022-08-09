@@ -7,9 +7,9 @@ You can click the Preview link to take a look at your changes.
 
 <img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/Ah3zHH7hvsSB2/giphy.gif" />
 
-## I'm a Associate Software Engineer at Acentura
+## I'm a Security Engineer at SK shieldus
 
-- 👨‍💻 I’m currently working on AI and django projects using python with Sparta.
+- 👨‍💻 I will working on AI and django projects using python with Sparta 9-9.
 - 📚 Learning everything about Backend and algorithm technologies.
 - 💪🏼 Future Goals: Learn more technologies - Never stop creating new ideas.
 
@@ -29,6 +29,11 @@ You can click the Preview link to take a look at your changes.
 ![Linux](https://img.shields.io/badge/-Linux-222222?style=flat&logo=linux&logoColor=FCC624)
 ![Amazon Web Services](https://img.shields.io/badge/-Amazon%20Web%20Services-222222?style=flat&logo=Amazon-Web-Service)
 <img alt="Fortinet" src ="https://img.shields.io/badge/Fortinet-222222.svg?&style=flat&logo=Fortinet&logoColor=#EE3124"/>
+
+##### Connect List
+<a href="https://velog.io/@rjgjfl" target="_blank"><img alt="Velog" src ="https://img.shields.io/badge/Velog-222222.svg?&style=flat&logo=Velog&logoColor=##20C997"/>
+<img alt="Naver" src ="https://img.shields.io/badge/rjgjfl90@naver.com-222222.svg?&style=flat&logo=Naver&logoColor=##20C997"/>
+<a href="https://github.com/Carrotww" target="_blank">![GitHub](https://img.shields.io/badge/-Carrotww_GitHub-222222?style=flat&logo=github&logoColor=181717)
 
 ![Carrot's GitHub stats](https://github-readme-stats.vercel.app/api?username=Carrotww&theme=material-palenight&show_icons=true)
 <br/>
