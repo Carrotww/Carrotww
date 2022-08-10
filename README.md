@@ -11,20 +11,20 @@ You can click the Preview link to take a look at your changes.
 
 ## I'm a Security Engineer at SK shieldus
 
-- 👨‍💻 It hasn't been long since I started coding, but I'm working hard.
+- ✒ It hasn't been long since I started coding, but I'm working hard.
 - 📚 Learning everything about Backend and algorithm technologies.
-- 💪🏼 Future Goals: Learn more technologies - Never stop creating new ideas.
+- 📈 Future Goals: Learn more technologies - Never stop creating new ideas.
 
 ---
 
-##### Languages I use
+##### 📝 Languages I use
 
 ![C++](https://img.shields.io/badge/-C++-000000?style=flat&logo=c%2B%2B)
 ![HTML5](https://img.shields.io/badge/-HTML5-000000?style=flat&logo=html5)
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=python)
 ![SQL](https://img.shields.io/badge/-SQL-000000?style=flat&logo=postgresql)
 
-##### Some of the technologies I have worked with
+##### ⚒ Some of the technologies I have worked with
 
 ![Git](https://img.shields.io/badge/-Git-222222?style=flat&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/-GitHub-222222?style=flat&logo=github&logoColor=181717)
@@ -34,7 +34,7 @@ You can click the Preview link to take a look at your changes.
 <img alt="Juniper Networks" src ="https://img.shields.io/badge/Juniper Networks FW-222222.svg?&style=flat&logo=Juniper Networks&logoColor=##84B135"/>
 <img alt="Trend Micro" src ="https://img.shields.io/badge/TMC Tipping point-222222.svg?&style=flat&logo=Trend Micro&logoColor=##D71921"/>
 
-##### Connect List
+##### 🔗 Connect List
 <a href="https://velog.io/@rjgjfl" target="_blank"><img alt="Velog" src ="https://img.shields.io/badge/Velog-222222.svg?&style=flat&logo=Velog&logoColor=##20C997"></a>
 <img alt="Naver" src ="https://img.shields.io/badge/rjgjfl90@naver.com-222222.svg?&style=flat&logo=Naver&logoColor=##20C997">
 <a href="https://github.com/Carrotww" target="_blank">![GitHub](https://img.shields.io/badge/-Carrotww_GitHub-222222?style=flat&logo=github&logoColor=181717)</a>
