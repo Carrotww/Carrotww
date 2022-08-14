@@ -37,6 +37,6 @@ You can click the Preview link to take a look at your changes.
 ##### 🔗 Connect List
 <a href="https://velog.io/@rjgjfl" target="_blank"><img alt="Velog" src ="https://img.shields.io/badge/Velog-222222.svg?&style=flat&logo=Velog&logoColor=##20C997"></a>
 <img alt="Naver" src ="https://img.shields.io/badge/rjgjfl90@naver.com-222222.svg?&style=flat&logo=Naver&logoColor=##20C997">
-<a href="https://github.com/Carrotww" target="_blank">![GitHub](https://img.shields.io/badge/-nakevin96_GitHub-222222?style=flat&logo=github&logoColor=181717)</a>
+<a href="https://github.com/Carrotww" target="_blank">![GitHub](https://img.shields.io/badge/-Carrotww_GitHub-222222?style=flat&logo=github&logoColor=181717)</a>
 
 ![Carrot's GitHub stats](https://github-readme-stats.vercel.app/api?username=Carrotww&theme=material-palenight&show_icons=true)
