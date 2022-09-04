@@ -13,7 +13,7 @@ def solution(n, road, k): # n : number of node, k : max intensity
 
     while pq:
         intensity, node = heapq.heappop(pq)
-        if min_dis[node] < node:
+        if min_dis[node] < intensity:
             continue
         min_dis[node] = intensity
         for next_node, next_val in temp[node]:
