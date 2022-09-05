@@ -17,10 +17,7 @@ def solution(n, road, k): # n : number of node, k : max intensity
             continue
         min_dis[node] = intensity
         for next_node, next_val in temp[node]:
-            sum_intensity = intensity + next_val
-            if min_dis[next_node] < sum_intensity:
-                continue
-            heapq.heappush(pq, (sum_intensity, next_node))
+            heapq.heappush(pq, (next_val + intensity, next_node))
 
     for i in min_dis:
         if i <= k:
