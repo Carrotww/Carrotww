@@ -4,7 +4,7 @@ import heapq
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
         # node -> n, route -> times
-        pq = [(0, k)]
+        pq = [(0, k)] # intensity, stored starting node
         MAX = 6001
         min_dis = [MAX for _ in range(n + 1)] # minimum distance initialize
         temp = [[] for _ in range(n + 1)]
