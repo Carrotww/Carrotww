@@ -1,3 +1,5 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/12978
+
 import heapq
 
 def solution(n, road, k): # n : number of node, k : max intensity

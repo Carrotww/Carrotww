@@ -23,7 +23,7 @@ def solution():
         print('Poor KCM')
     else:
         print(result)
-        
+
 T = int(input())
 for _ in range(T):
     solution()
@@ -31,6 +31,8 @@ for _ in range(T):
 
 print(solution(3, 100, [[1, 2, 1, 1], [2, 3, 1, 1], [1, 3, 3, 30]]))
 print(solution(4, 10, [[1, 2, 5, 3], [2, 3, 5, 4], [3, 4, 1, 5], [1, 3, 10, 6]]))
+
+# 처음 Dijkstra로 접근 코드 -> 실패
 # import heapq
 
 # def solution(n, total_cost, tickets):

@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/network-delay-time/submissions/
+
 from typing import List
 import heapq
 
