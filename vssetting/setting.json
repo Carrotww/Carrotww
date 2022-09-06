@@ -1,0 +1,28 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "vim.visualModeKeyBindingsNonRecursive": [
+    
+    ],
+    "vim.handleKeys": {
+        "<C-d>": false,
+        "<C-c>": false,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-a>": false,
+        "<C-v>": false
+    },
+    "tegrated.fontFamily": "monospace",
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 16,
+    "settingsSync.ignoredSettings": [
+
+        "-window.zoomLevel"
+    ],
+    "workbench.colorTheme": "Xcode 11 Default Dark",
+    "editor.fontFamily": "\"JetBrains Mono\", \"monospace\"",
+    "terminal.integrated.fontFamily": "monospace",
+    "material-icon-theme.folders.associations": {
+    
+    }
+}
