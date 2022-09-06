@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/10217
+
 import sys
 import math
 
