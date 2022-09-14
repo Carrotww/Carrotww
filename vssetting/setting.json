@@ -1,5 +1,5 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
   "workbench.startupEditor": "none",
   "vim.visualModeKeyBindingsNonRecursive": [],
   "vim.handleKeys": {
@@ -32,17 +32,16 @@
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "pythonIndent.keepHangingBracketOnLine": true,
   "sync.gist": "fd08c1ad880987d42b454686c2da569e",
-  "workbench.colorTheme": "GitHub Dark",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "code-runner.executorMap": {
+    "python": "set PYTHONIOENCODING=utf8 && python -u",
     "javascript": "node",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
     "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
     "php": "php",
-    "python": "python -u",
     "perl": "perl",
     "perl6": "perl6",
     "ruby": "ruby",
@@ -89,5 +88,6 @@
     "sml": "cd $dir && sml $fileName"
   },
   "code-runner.saveFileBeforeRun": true,
-  "code-runner.clearPreviousOutput": true
+  "code-runner.clearPreviousOutput": true,
+  "workbench.colorTheme": "GitHub Dark Default"
 }
