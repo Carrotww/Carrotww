@@ -33,6 +33,7 @@ def get_game_over_turn_count(horse_count, game_map, horse_location_and_direction
         current_stacked_horse_map[r][c].append(i)
     cnt = 1
     
+    
     while cnt <= 1000:
         for horse_index in range(horse_count):
             r, c, d = horse_location_and_directions[horse_index]
