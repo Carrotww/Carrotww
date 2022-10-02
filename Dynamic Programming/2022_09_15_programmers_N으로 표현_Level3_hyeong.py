@@ -12,7 +12,7 @@ def solution(n, number):
                 # temp.add(i - j)
                 if j != 0: temp.add(i // j)
                 # if i != 0: temp.add(j // i)
-        return temp # 입력받은 두 개의 set 을 모두 계산하여서 temp 에 저장
+        return temp # 입력받은 두 개의 set 을 모두 계산하여서 temp
     
     temp = defaultdict(set)
     
