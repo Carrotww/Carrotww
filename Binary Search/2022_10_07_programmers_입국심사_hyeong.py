@@ -16,3 +16,4 @@ def solution(n, times):
     return result
 
 print(solution(6, [7, 10]))
+print('dksl')
