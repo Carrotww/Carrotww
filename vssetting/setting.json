@@ -3,7 +3,6 @@
   "workbench.startupEditor": "none",
   "vim.visualModeKeyBindingsNonRecursive": [],
   "vim.handleKeys": {
-    "<C-d>": false,
     "<C-c>": false,
     "<C-s>": false,
     "<C-z>": false,
