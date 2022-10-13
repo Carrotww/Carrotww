@@ -1,3 +1,21 @@
+# 내 최신 풀이
+def solution(priorities, location):
+    from collections import deque
+    temp = [(num, pr) for num, pr in enumerate(priorities)]
+    temp = deque(temp)
+
+    cnt = 0
+    while temp:
+        pr_job = temp.popleft()
+        if temp and int(pr_job[1]) < max(temp, key=lambda x:x[1])[1]:
+            temp.append(pr_job)
+        else:
+            cnt += 1
+            if pr_job[0] == location:
+                return cnt
+
+
+"""
 from collections import deque
 
 def solution(priorities, location):
@@ -13,6 +31,8 @@ def solution(priorities, location):
             cnt += 1
             if temp_num == location:
                 return cnt
+"""
+
 
 """ # 내 풀이
 from collections import deque
