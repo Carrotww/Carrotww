@@ -9,7 +9,7 @@ You can click the Preview link to take a look at your changes.
 
 <img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/Ah3zHH7hvsSB2/giphy.gif" />
 
-## I'm a Security Engineer at SK shieldus
+## I am a Software Maestro 14th class trainee.
 
 - ✒ It hasn't been long since I started coding, but I'm working hard.
 - 📚 Learning everything about Backend and algorithm technologies.
